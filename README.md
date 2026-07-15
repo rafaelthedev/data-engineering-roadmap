@@ -1,5 +1,5 @@
 # Roadmap de Engenharia de Dados
-A engenharia de dados projeta, constrói, sustenta e evolui sistemas que coletam, processam, armazenam e disponibilizam dados com qualidade, segurança e escalabilidade. 
+A engenharia de dados é a área responsável por projetar, construir, sustentar e evoluir sistemas que coletam, processam, armazenam e disponibilizam dados com qualidade, segurança e escalabilidade. 
 Neste roteiro de estudos estruturado, pretendo compartilhar o que aprendo e propor um caminho de aprendizado que possa ajudar mais pessoas a ingressar na engenharia de dados.
 
 ## Pilares da Engenharia de Dados
@@ -243,7 +243,7 @@ Neste roteiro de estudos estruturado, pretendo compartilhar o que aprendo e prop
 
 </details>
 
-#### *Conhecimentos complementares (indispensáveis).*
+#### Conhecimentos complementares (indispensáveis).
 
 <details>
 <summary><strong>Sistemas Operacionais</strong></summary>
@@ -310,5 +310,51 @@ Neste roteiro de estudos estruturado, pretendo compartilhar o que aprendo e prop
 <details>
     <summary><strong>Vídeos</strong></summary>
 </details>
+
+</details>
+
+## Glossário de Engenharia de Dados
+
+| Termo | Definição |
+| ------ | --------- |
+| ETL | Extração, Transformação e Carregamento de dados. |
+| ELT | Extração, Carregamento e Transformação de dados. |
+| Pipeline | Série de etapas automatizadas que processa e movimenta dados entre diferentes sistemas. |
+| Data Warehouse | Banco de dados otimizado para armazenar dados históricos e realizar consultas analíticas. |
+| Data Lake | Repositório centralizado para armazenar grandes volumes de dados estruturados, semiestruturados e não estruturados em seu formato original. |
+| Data Lakehouse| Arquitetura que combina a flexibilidade de um Data Lake com os recursos analíticos e de governança de um Data Warehouse. |
+| Data Mesh | Abordagem arquitetural que descentraliza a gestão dos dados, atribuindo a responsabilidade pelos domínios às equipes de negócio. |
+| OLTP | Sistema otimizado para processar transações operacionais em tempo real. |
+| OLAP | Sistema otimizado para consultas analíticas e exploração de grandes volumes de dados. |
+| Orquestração | Coordenação e automação da execução de pipelines e processos de dados. |
+| Batch | Processamento de dados em lotes, realizado em intervalos definidos. |
+| Stream | Processamento contínuo de dados à medida que são gerados. |
+| DataOps | Práticas que aplicam princípios de DevOps para automatizar e melhorar o ciclo de vida dos dados. |
+| Orquestração | Coordenação e automação da execução de pipelines e processos de dados. |
+| Clusterização | Organização dos dados em grupos para otimizar armazenamento ou processamento, dependendo do contexto. |
+| Atomicidade | Transação tradada como unidade indivisível: todas operações da transação acontecem, ou nenhuma acontece. |
+
+<details>
+    <summary><strong>Mais termos e definições</strong></summary>
+
+<br>
+
+| Termo | Definição |
+| ------ | --------- |
+| Índice (Index) | Estrutura que acelera a execução de consultas. |
+| Chave Primária (Primary Key) | Coluna que identifica unicamente cada registro. |
+| Chave Estrangeira (Foreign Key) | Coluna que estabelece relacionamento entre tabelas. |
+| Normalização | Processo de organizar dados para reduzir redundância. |
+| Desnormalização | Processo de introduzir redundância para melhorar o desempenho das consultas. |
+| Data Product | Conjunto de dados tratado como um produto, com documentação, qualidade e responsáveis definidos. |
+| Catálogo de Dados | Repositório que centraliza informações sobre ativos de dados da organização. |
+| Governança de Dados | Conjunto de práticas para garantir qualidade, segurança, conformidade e uso adequado dos dados. |
+| Qualidade de Dados | Conjunto de critérios que avaliam a confiabilidade, consistência e integridade dos dados. |
+| Linhagem de Dados (Data Lineage) | Registro do percurso dos dados desde sua origem até seu destino. |
+| Schema | Estrutura que define como os dados são organizados em um banco de dados. |
+| Metadados | Dados que descrevem e fornecem informações sobre outros dados. |
+| Particionamento | Técnica que divide grandes conjuntos de dados em partes menores para melhorar desempenho e escalabilidade. |
+| Big Data | Área que envolve o armazenamento, processamento e análise de grandes volumes de dados, estruturados ou não estruturados, utilizando tecnologias capazes de lidar com alta escala e complexidade. |
+
 
 </details>
